@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <title>Vishal Mankar - Front-End Developer</title>
+    <link rel="stylesheet" href="portfolio.css" />
+    <!-- internal CSS -->
+    <style>
+      .info {
+        display: flex;
+        flex-direction: column;
+        /* position: relative; */
+        align-items: end;
+        margin-right: 8pc;
+        margin-top: 4pc;
+      }
+      .info p {
+        text-align: end;
+      }
+      .skills {
+        margin-left: 2pc;
+        margin-top: 1pc;
+      }
+      .progress {
+        width: 63%;
+        display: flex;
+        height: 174px;
+        justify-content: space-around;
+        background-color: #fff;
+      }
+      .progressBar {
+        border: 1px solid black;
+        width: 13pc;
+      }
+      .progressSection {
+        width: 16pc;
+        font-weight: 900;
+      }
+      .progress1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+      }
+      .progress2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+      }
+
+      .progressBarHtml {
+        border: 1px solid darkblue;
+        height: 13px;
+        margin: 1px;
+        width: 199px;
+        background: #34495e;
+      }
+      .progressBarCss {
+        border: 1px solid darkblue;
+        height: 13px;
+        margin: 1px;
+        width: 190px;
+        background: #34495e;
+      }
+      .progressBarJs {
+        border: 1px solid darkblue;
+        height: 13px;
+        margin: 1px;
+        width: 150px;
+        background: #34495e;
+      }
+      .progressBarBootstrap {
+        border: 1px solid darkblue;
+        height: 13px;
+        margin: 1px;
+        width: 180px;
+        background: #34495e;
+      }
+      .progressBarC {
+        border: 1px solid darkblue;
+        height: 13px;
+        margin: 1px;
+        width: 100px;
+        background: #34495e;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="sideBar">
+        <div class="sideBarTitle">
+          <h1>Vishal</h1>
+          <p>Front-End Website Developer</p>
+        </div>
+        <hr />
+        <ul id="ul">
+          <li>
+            <a href="portfolio.html"
+              ><img src="SVG's/home logo.svg" alt="" /> Home</a
+            >
+          </li>
+          <li>
+            <a href="about me.html"
+              ><img src="SVG's/human logo.svg" alt="" />My Skills</a
+            >
+          </li>
+          <li>
+            <a href="what i do.html"
+              ><img src="SVG's/service logo.svg" alt="" /> What I do</a
+            >
+          </li>
+          <li>
+            <a href="contact.html"
+              ><img src="SVG's/contact.svg" alt="" srcset="" /> Contact</a
+            >
+          </li>
+        </ul>
+        <hr />
+        <div class="email">
+          <div id="span">
+            <img
+              src="SVG's/web-developer-svgrepo-com.svg"
+              alt=""
+              id="userSvg"
+            />
+            <h2>Vishal</h2>
+          </div>
+          <a href="mailto:vishalmankar9623@gmail.com" id="mail"
+            >vishalmankar9623@gmail.com</a
+          >
+        </div>
+      </div>
+      <!-- this is main part of website -->
+      <div class="main">
+        <!-- this is about section -->
+        <div class="about">
+          <!-- this is aboutMeDiv for grouping about section -->
+          <div class="aboutMeDiv">
+            <!-- my info -->
+            <div class="info">
+              <h1>About Me</h1>
+              <h3>Hi, i'm <span>Vishal Mankar</span></h3>
+              <p>
+                <br />
+                I am a Front-End web Developer and i Like to design awesome websites. <br>
+                i am Excited to learning New technologies.
+              </p>
+            </div>
+            <!-- my skill levals -->
+            <div class="skills">
+              <h3 class="title">What is my skill level ?</h3>
+              <p>
+               I have good command on HTML, CSS, JavaScript along with bootstrap FrameWork. <br>
+               and skill levels as follows.
+              </p>
+            </div>
+            <!-- here are progress bars -->
+            <div class="progress">
+              <div class="progress1">
+                <div class="progressSection">
+                  <span>HTML</span><br />
+                  <div class="progressBar">
+                    <div class="progressBarHtml"></div>
+                  </div>
+                </div>
+
+                <div class="progressSection">
+                  <span>CSS</span>
+                  <div class="progressBar">
+                    <div class="progressBarCss"></div>
+                  </div>
+                </div>
+
+                <div class="progressSection">
+                  <span>JavaScript</span>
+                  <div class="progressBar">
+                    <div class="progressBarJs"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="progress2">
+                <div class="progressSection">
+                  <span>Bootstrap</span>
+                  <div class="progressBar">
+                    <div class="progressBarBootstrap"></div>
+                  </div>
+                </div>
+
+                <div class="progressSection">
+                  <span>C/C++</span>
+                  <div class="progressBar">
+                    <div class="progressBarC"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          
+         
+          </div>
+
+          
+        </div>
+
+        <!-- this is footer -->
+        <footer>
+          <span><img src="./contact.svg" alt="" /> Mail me at:
+      <a href="mailto:vishalmankar9623@gmail.com" target="_blank"
+        >vishalmankar9623@gmail.com </a
+      >OR <a href="https://api.whatsapp.com/qr/AJIDKYK7IZ56C1" target="_blank">9623058051</a></span
+    >
+  </footer>
+      </div>
+    </div>
+    <!-- bootstrap js -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
