@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+#navbarSupportedContent{
+    margin-left: 200px;
+}
+.navbar-brand{
+    position: relative;
+    left: 180px;
+    font-size: x-large;
+    text-shadow: 2px 1px 1px white;
+    font-weight: 900;
+}

@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;}
+.images{
+    position: relative;
+    top: -31pc;
+    left: 74pc;
+
+}
+.images #nmrdaLogo{
+    border-radius: 50%;
+}
+#slogan{
+    position: relative;
+    bottom: 32pc;
+    text-align: center;
+    color: aliceblue;
+    font-weight: 800;
+    text-shadow: -2px 8px 7px black;
+}
+#btn-lg{
+    display: block;
+    position: relative;
+    bottom: 18pc;
+}
+#navbarSupportedContent{
+    margin-left: 200px;
+}
+.navbar-brand{
+    position: relative;
+    left: 180px;
+    font-size: x-large;
+    text-shadow: 2px 1px 1px white;
+    font-weight: 900;
+}
+
+footer{
+    position: relative;
+    bottom: 22pc;
+} 
